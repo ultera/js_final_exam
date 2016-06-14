@@ -1,0 +1,27 @@
+{
+  "name": "js_final_exam",
+  "version": "1.0.0",
+  "description": "JS Final Exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ultera/js_final_exam.git"
+  },
+  "author": "ann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ultera/js_final_exam/issues"
+  },
+  "homepage": "https://github.com/ultera/js_final_exam#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

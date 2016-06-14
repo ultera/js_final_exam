@@ -1,0 +1,127 @@
+html {
+  overflow-x: hidden;
+}
+.header {
+  width: $desktop-screen;
+  height: 700px;
+  margin: 0 auto;
+  background: url('../img/header.jpg');
+  background-size: cover;
+  color: #fff;
+  font-weight: bold;
+}
+.header__title {
+  float: left;
+  margin-left: 250px;
+  margin-top: 48px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
+.login {
+  float: right;
+  margin-top: 38px;
+  font-size: 14px;
+}
+.login__item {
+  float: left;
+  display: block;
+  height: 36px;
+  padding: 0 17px;
+  line-height: 35px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.login__item:hover {
+  padding: 0 15px;
+  line-height: 31px;
+  border: 2px solid white;
+  @include border-radius(15px);
+}
+.login__item--log-in {
+  margin-right: 3px;
+}
+.login__item--sign-up {
+  margin-right: 253px;
+}
+.slogan {
+  width: 500px;
+  padding-top: 148px;
+  margin: 0 auto;
+  line-height: 1;
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.slogan__item2 {
+  margin-top: 10px;
+}
+.slogan__item3 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: robotolight;
+  text-transform: none;
+}
+.btn-find {
+  width: 225px;
+  height: 40px;
+  line-height: 40px;
+  margin: 37px auto 0;
+  font-size: 14px;
+  background: $red;
+}
+@media screen and ( max-width: $tablet-screen ) {
+  .header {
+    width: $tablet-screen;
+    height: 700px;
+    margin: 0 auto;
+    background: url('../img/header-tablet.jpg');
+  }
+  .header__title {
+    margin-left: 50px;
+  }
+  .login__item--sign-up {
+    margin-right: 50px;
+  }
+}
+@media screen and ( max-width: $mobile-screen ) {
+  .header {
+    width: $mobile-screen;
+    height: 540px;
+    margin: 0 auto;
+    background: url('../img/header-mobile.jpg');
+  }
+  .login {
+    float: none;
+    width: 185px;
+    padding-top: 21px;
+    margin: 0 auto;
+  }
+  .login__item {
+    margin: 0;
+  }
+  .header__title {
+    float: none;
+    margin: 152px 0 0;
+    text-align: center;
+  }
+  .slogan {
+    width: $mobile-screen;
+    padding-top: 31px;
+    font-size: 30px;
+  }
+  .slogan__item2 {
+    margin-top: 10px;
+  }
+  .slogan__item3 {
+    width: 220px;
+    margin: 12px auto 0;
+    font-size: 18px;
+  }
+  .btn-find {
+    width: 275px;
+    margin: 19px auto 0;
+  }
+}

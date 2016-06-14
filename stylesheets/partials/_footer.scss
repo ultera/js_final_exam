@@ -1,0 +1,124 @@
+.footer {
+  border-top: 4px solid $red;
+  margin-top: 37px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.footer__container {
+  width: $page-width;
+  height: 197px;
+  margin: 0 auto;;
+}
+.menu {
+  float: left;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.menu__item {
+  float: left;
+}
+.menu__link {
+  color: $main-color;
+}
+.menu__link--first {
+  margin-right: 94px;
+}
+.menu__link--company {
+  margin-right: 93px;
+}
+.menu__link--first {
+  color: $red;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.menu__subitem {
+  margin-top: 12px;
+  font-family: robotolight;
+}
+.logo {
+  float: right;
+  width: 115px;
+  height: 45px;
+  margin-top: 39px;
+  background: url(../img/logo.png) no-repeat 6px 18px;
+}
+.logo__text {
+  margin-left: 34px;
+  color: #ccc;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+@media screen and ( max-width: $tablet-screen ) {
+  .footer {
+    width: $tablet-screen;
+  }
+  .footer__container {
+    width: $tablet-screen;
+  }
+  .menu {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .menu__link--first {
+    margin-right: 80px;
+  }
+  .menu__link--company {
+    margin-right: 104px;
+  }
+  .menu__subitem {
+    margin-top: 12px;
+    margin-left: 1px;
+  }
+  .logo {
+    margin-right: 41px;
+  }
+  .logo__text {
+    margin-left: 34px;
+  }
+}
+@media screen and ( max-width: $mobile-screen ) {
+  .footer {
+    width: $mobile-screen;
+    height: 193px;
+    margin-top: 6px;
+    text-align: center;
+  }
+  .footer__container {
+    width: $mobile-screen;
+  }
+  .menu {
+    float: none;
+    margin: 18px 0 0 0;
+  }
+  .menu__item {
+    float: none;
+  }
+  .menu__item--company {
+    margin-top: 15px;
+  }
+  .menu__item--partners {
+    margin-top: 29px;
+  }
+  .menu__link {
+    margin: 0;
+  }
+  .menu__submenu {
+    width: 200px;
+    height: 14px;
+    margin: -7px auto 0;
+  }
+  .menu__subitem {
+    float: left;
+    margin-right: 13px;
+  }
+  .menu__subitem--last {
+    margin-right: 0;
+  }
+  .logo {
+    float: none;
+    margin: 16px auto 0;
+  }
+  .logo__text {
+  }
+}

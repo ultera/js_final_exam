@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Final Exam</title>
+  <![if !(IE 8)]>
+  <link rel="stylesheet" href="release/css/style.main.min.css">
+  <![endif]>
+  <!--[if IE 8]>
+	<link rel="stylesheet" href="release/css/style-ie8.min.css">
+  <![endif]-->
+  <script src="release/js/jquery-1.12.3.min.js"></script>
+  <script src="release/js/jquery.tmpl.min.js"></script>
+  <script src="release/js/jquery.jcarousel.min.js"></script>
+  <![if !(IE 8)]>
+	<script src="release/js/masonry.pkgd.min.js"></script>
+  <script src="release/js/script.main.min.js"></script>
+  <![endif]>
+  <!--[if IE 8]>
+	<script src="release/js/masonry-3.3.2-pkgd.min.js"></script>
+  <script src="release/js/script-ie8.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="header">
+    <ul class="login">
+      <li class="login__item login__item--log-in">Log in</li>
+      <li class="login__item login__item--sign-up">Sign up</li>
+    </ul>
+    <div class="header__title">URLAUBSGLÜCK</div>
+    <div class="slogan clearfix">
+      <p>Share your</p>
+      <p class="slogan__item2">holiday dreams</p>
+      <p class="slogan__item3">And find the perfect partner to fullfill it</p>
+    </div>
+    <div class="btn btn-find">
+      <span>Find your holiday partner</span>
+    </div>
+  </div>
+  <!-- MAIN CONTENT -->
+  <div class="section section--describe">
+    <div class="section__h1">How Urlaubsglück works?</div>
+    <div class="slider">
+      <div class="slider__item slider__item--step1">
+        <div class="slider__content">
+          <img class="slider__arrow slider__arrow--left" src="img/slider-arrow-left.png" alt="">
+          <img class="slider__arrow slider__arrow--right" src="img/slider-arrow-right.png" alt="">
+          <div class="btn slider__button slider__button--step1 clearfix">
+            <span>STEP 1</span>
+          </div>
+          <div class="slider__h1">Sed leo enim, condimentum</div>
+          <div class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</div>
+        </div>
+        <div class="jcarousel">
+          <ul class="jcarousel__list">
+            <li class="jcarousel__item jcarousel__item--step1"></li>
+            <li class="jcarousel__item jcarousel__item--step1"></li>
+            <li class="jcarousel__item jcarousel__item--step1"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="slider__item slider__item--step2">
+        <div class="slider__content">
+          <img class="slider__arrow slider__arrow--left" src="img/slider-arrow-left.png" alt="">
+          <img class="slider__arrow slider__arrow--right" src="img/slider-arrow-right.png" alt="">
+          <div class="btn slider__button slider__button--step2 clearfix">
+            <span>STEP 2</span>
+          </div>
+          <div class="slider__h1">Morbi velit risus</div>
+          <div class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</div>
+        </div>
+        <div class="jcarousel">
+          <ul class="jcarousel__list">
+            <li class="jcarousel__item jcarousel__item--step2"></li>
+            <li class="jcarousel__item jcarousel__item--step2"></li>
+            <li class="jcarousel__item jcarousel__item--step2"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="slider__item slider__item--step3">
+        <div class="slider__content">
+          <img class="slider__arrow slider__arrow--left" src="img/slider-arrow-left.png" alt="">
+          <img class="slider__arrow slider__arrow--right" src="img/slider-arrow-right.png" alt="">
+          <div class="btn slider__button slider__button--step3 clearfix">
+            <span>STEP 3</span>
+          </div>
+          <div class="slider__h1">Sed leo enim, condimentum</div>
+          <div class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</div>
+        </div>
+        <div class="jcarousel">
+          <ul class="jcarousel__list">
+            <li class="jcarousel__item jcarousel__item--step3"></li>
+            <li class="jcarousel__item jcarousel__item--step3"></li>
+            <li class="jcarousel__item jcarousel__item--step3"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section--partners clearfix">
+    <div class="section__h1 section__h1--partners">Meet a partner for your best holiday</div>
+    <div class="partner partner--1">
+      <img src="img/partner-1.png" alt="" class="partner__img partner__img--1">
+      <div class="partner__h1">Bradley Hunter</div>
+      <div class="partner__text">Based in Chicago. I love playing tennis and loud music.</div>
+    </div>
+    <div class="partner partner--2">
+      <img src="img/partner-2.png" alt="" class="partner__img">
+      <div class="partner__h1">Heather Walker</div>
+      <div class="partner__text">'m a happy person that loves cats and climbing on mountains.</div>
+    </div>
+    <div class="partner partner--3">
+      <img src="img/partner-3.png" alt="" class="partner__img">
+      <div class="partner__h1">Lucas Marsha</div>
+      <div class="partner__text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</div>
+    </div>
+    <div class="partner partner--4">
+      <img src="img/partner-4.png" alt="" class="partner__img">
+      <div class="partner__h1">Bradley Hunter</div>
+      <div class="partner__text">Based in Chicago. I love playing tennis and loud music.</div>
+    </div>
+    <div class="btn partner__btn clearfix">See other partners</div>
+  </div>
+
+  <div class="section section--ideas clearfix">
+    <div class="section__h1">Discover holiday activity ideas</div>
+    <div class="photo"></div>
+  </div>
+
+  <div class="section section--search">
+    <div class="section__h1">Discover holiday activity ideas</div>
+    <div class="search">
+      <p class="search__h1">Hi! What are your holiday interests?</p>
+      <input class="search__input" placeholder="Enter your interests" title="Enter your interests" type="search" value="" maxlength="1000">
+      <div class="btn search__btn">Search partners</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer__container">
+      <ul class="menu">
+        <li class="menu__item menu__item--first"><a class="menu__link menu__link--first" href="">URLAUBSGLÜCK</a></li>
+        <li class="menu__item menu__item--company"><a class="menu__link menu__link--company" href="">Company</a>
+          <ul class="menu__submenu">
+            <li class="menu__subitem"><a class="menu__link" href="">About</a></li>
+            <li class="menu__subitem"><a class="menu__link" href="">Contacts</a></li>
+            <li class="menu__subitem"><a class="menu__link" href="">Press</a></li>
+            <li class="menu__subitem menu__subitem--last"><a class="menu__link" href="">Blog</a></li>
+          </ul>
+        </li>
+        <li class="menu__item menu__item--partners"><a class="menu__link menu__link--partners" href="">Partners</a></li>
+      </ul>
+      <div class="logo">
+        <p class="logo__text">DESIGNED BY</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+</html>
